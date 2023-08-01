@@ -1,0 +1,202 @@
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+UCX 1.9.0 is now loaded
+Open MPI 4.0.3 is now loaded
+Loading module for cudnn
+cudnn is now loaded
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+GNU 9.2.0 is now loaded
+Loading module for Machine Learning 2022.11
+Machine Learning 2022.11 is now loaded
+gpu504-37 pinned to port 10020
+ 
+To connect to the compute node gpu504-37 on IBEX running your jupyter notebook server, you need to run following two commands in a terminal 1. 
+Command to create ssh tunnel from you workstation/laptop to glogin: 
+
+ssh -L 10020:gpu504-37:10020 abdulna@glogin.ibex.kaust.edu.sa 
+
+Copy the link provided below by jupyter-server and replace the NODENAME with localhost before pasting it in your browser on your workstation/laptop 
+[I 11:54:46.971 NotebookApp] Loading IPython parallel extension
+[W 2023-07-31 11:54:48.845 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 11:54:48.845 LabApp] 'port_retries' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 11:54:48.845 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 11:54:48.845 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-31 11:54:48.845 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-31 11:54:48.863 LabApp] JupyterLab extension loaded from /sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyterlab
+[I 2023-07-31 11:54:48.863 LabApp] JupyterLab application directory is /sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/share/jupyter/lab
+[I 11:54:49.473 NotebookApp] Serving notebooks from local directory: /home/abdulna/test
+[I 11:54:49.473 NotebookApp] Jupyter Notebook 6.5.1 is running at:
+[I 11:54:49.473 NotebookApp] http://gpu504-37:10020/?token=09c16bbce93300c22484e9096fbb5d2a05de973803c9f278
+[I 11:54:49.473 NotebookApp]  or http://127.0.0.1:10020/?token=09c16bbce93300c22484e9096fbb5d2a05de973803c9f278
+[I 11:54:49.473 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:54:49.485 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/abdulna/.local/share/jupyter/runtime/nbserver-81196-open.html
+    Or copy and paste one of these URLs:
+        http://gpu504-37:10020/?token=09c16bbce93300c22484e9096fbb5d2a05de973803c9f278
+     or http://127.0.0.1:10020/?token=09c16bbce93300c22484e9096fbb5d2a05de973803c9f278
+[E 11:55:30.136 NotebookApp] Failed to run command:
+    ['/home/abdulna/test/env/bin/python', '-m', 'ipykernel_launcher', '-f', '/home/abdulna/.local/share/jupyter/runtime/kernel-27aee5de-aca2-4db0-ba6e-5b047757191f.json']
+        PATH='/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/bin:/sw/csi/gcc/9.2.0/el7.9_binary/bin:/sw/csgv/openmpi/4.0.3/el7.9_gnu4.8.5_cuda11.2.2/libexec/osu-micro-benchmarks/mpi/collective:/sw/csgv/openmpi/4.0.3/el7.9_gnu4.8.5_cuda11.2.2/libexec/osu-micro-benchmarks/mpi/pt2pt:/sw/csgv/openmpi/4.0.3/el7.9_gnu4.8.5_cuda11.2.2/bin:/sw/csgv/ucx/1.9.0/el7.9_gnu4.8.5_cuda11.2.2/bin:/sw/csgv/cuda/11.2.2/el7.9_binary/bin:/opt/slurm/puppet/bin:/opt/slurm/cluster/ibex/install-v2/RedHat-7/bin:/opt/slurm/scripts/sbin:/opt/slurm/scripts/bin:/usr/lpp/mmfs/bin:/home/abdulna/miniconda3/bin:/home/abdulna/miniconda3/condabin:/usr/lib64/qt-3.3/bin:/opt/slurm/puppet/bin:/opt/slurm/cluster/ibex/install-v2/RedHat-7/bin:/opt/slurm/scripts/sbin:/opt/slurm/scripts/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/slurm/scripts/bin:/opt/puppetlabs/bin:/home/abdulna/.local/bin:/home/abdulna/bin:/opt/slurm/scripts/bin:/home/abdulna/.local/bin:/home/abdulna/bin'
+        with kwargs:
+    {'stdin': -1, 'stdout': None, 'stderr': None, 'cwd': '/home/abdulna/test', 'start_new_session': True}
+    
+[E 11:55:30.137 NotebookApp] [Errno 2] No such file or directory: '/home/abdulna/test/env/bin/python'
+    Traceback (most recent call last):
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/manager.py", line 75, in wrapper
+        out = await method(self, *args, **kwargs)
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/manager.py", line 389, in _async_start_kernel
+        await ensure_async(self._launch_kernel(kernel_cmd, **kw))
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/utils.py", line 30, in wrapped
+        raise e
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/utils.py", line 27, in wrapped
+        return loop.run_until_complete(future)
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/nest_asyncio.py", line 90, in run_until_complete
+        return f.result()
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/futures.py", line 201, in result
+        raise self._exception
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/tasks.py", line 256, in __step
+        result = coro.send(None)
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/manager.py", line 307, in _async_launch_kernel
+        connection_info = await self.provisioner.launch_kernel(kernel_cmd, **kw)
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/provisioning/local_provisioner.py", line 204, in launch_kernel
+        self.process = launch_kernel(cmd, **scrubbed_kwargs)
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/launcher.py", line 170, in launch_kernel
+        raise ex
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/launcher.py", line 158, in launch_kernel
+        proc = Popen(cmd, **kwargs)
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/subprocess.py", line 951, in __init__
+        self._execute_child(args, executable, preexec_fn, close_fds,
+      File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/subprocess.py", line 1821, in _execute_child
+        raise child_exception_type(errno_num, err_msg, err_filename)
+    FileNotFoundError: [Errno 2] No such file or directory: '/home/abdulna/test/env/bin/python'
+2023-07-31 11:55:30,149 - NotebookApp - ERROR - Uncaught exception POST /api/sessions?1690793730000 (10.109.66.127)
+HTTPServerRequest(protocol='http', host='127.0.0.1:10020', method='POST', uri='/api/sessions?1690793730000', version='HTTP/1.1', remote_ip='10.109.66.127')
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/web.py", line 1704, in _execute
+    result = await result
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/tasks.py", line 328, in __wakeup
+    future.result()
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/gen.py", line 769, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/services/sessions/handlers.py", line 74, in post
+    model = yield maybe_future(
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/gen.py", line 769, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/services/sessions/sessionmanager.py", line 98, in create_session
+    kernel_id = yield self.start_kernel_for_session(session_id, path, name, type, kernel_name)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/gen.py", line 769, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/services/sessions/sessionmanager.py", line 110, in start_kernel_for_session
+    kernel_id = yield maybe_future(
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/futures.py", line 201, in result
+    raise self._exception
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/services/kernels/kernelmanager.py", line 176, in start_kernel
+    kernel_id = await maybe_future(self.pinned_superclass.start_kernel(self, **kwargs))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/utils.py", line 30, in wrapped
+    raise e
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/utils.py", line 27, in wrapped
+    return loop.run_until_complete(future)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/nest_asyncio.py", line 90, in run_until_complete
+    return f.result()
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/futures.py", line 201, in result
+    raise self._exception
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/multikernelmanager.py", line 214, in _async_start_kernel
+    starter = ensure_async(km.start_kernel(**kwargs))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/utils.py", line 30, in wrapped
+    raise e
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/utils.py", line 27, in wrapped
+    return loop.run_until_complete(future)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/nest_asyncio.py", line 90, in run_until_complete
+    return f.result()
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/futures.py", line 201, in result
+    raise self._exception
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/manager.py", line 83, in wrapper
+    raise e
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/manager.py", line 75, in wrapper
+    out = await method(self, *args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/manager.py", line 389, in _async_start_kernel
+    await ensure_async(self._launch_kernel(kernel_cmd, **kw))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/utils.py", line 30, in wrapped
+    raise e
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/utils.py", line 27, in wrapped
+    return loop.run_until_complete(future)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/nest_asyncio.py", line 90, in run_until_complete
+    return f.result()
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/futures.py", line 201, in result
+    raise self._exception
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/manager.py", line 307, in _async_launch_kernel
+    connection_info = await self.provisioner.launch_kernel(kernel_cmd, **kw)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/provisioning/local_provisioner.py", line 204, in launch_kernel
+    self.process = launch_kernel(cmd, **scrubbed_kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/launcher.py", line 170, in launch_kernel
+    raise ex
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_client/launcher.py", line 158, in launch_kernel
+    proc = Popen(cmd, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/abdulna/test/env/bin/python'
+[W 11:55:30.161 NotebookApp] Unhandled error
+[E 11:55:30.162 NotebookApp] {
+      "Host": "127.0.0.1:10020",
+      "Accept": "*/*",
+      "Referer": "http://127.0.0.1:10020/lab/tree/code_prototype.ipynb",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    }
+[E 11:55:30.162 NotebookApp] 500 POST /api/sessions?1690793730000 (10.109.66.127) 162.820000ms referer=http://127.0.0.1:10020/lab/tree/code_prototype.ipynb
+[I 11:55:34.471 NotebookApp] Saving file at /code_prototype.ipynb
+[I 11:55:38.337 NotebookApp] Kernel started: 6e67fb01-bad4-4709-b58a-d17301f1e04f, name: myenv2
+[I 11:57:34.698 NotebookApp] Saving file at /code_prototype.ipynb
+[I 11:58:24.452 NotebookApp] New terminal with automatic name: 1
+[I 11:59:34.748 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:01:34.810 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:02:43.366 NotebookApp] Saving file at /bug.py
+[I 12:04:43.483 NotebookApp] Saving file at /bug.py
+[I 12:04:52.426 NotebookApp] Saving file at /bug.py
+[I 12:06:28.757 NotebookApp] Saving file at /bug.py
+[I 12:07:35.289 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:09:35.358 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:11:35.425 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:19:38.300 NotebookApp] Saving file at /code_prototype.ipynb
+Python 3.9.16
+[I 12:24:49.250 NotebookApp] Kernel restarted: 6e67fb01-bad4-4709-b58a-d17301f1e04f
+[I 12:24:49.305 NotebookApp] Starting buffering for 6e67fb01-bad4-4709-b58a-d17301f1e04f:aed18ef5-da09-49aa-84fe-dd43a4fed0ba
+[I 12:24:49.315 NotebookApp] Restoring connection for 6e67fb01-bad4-4709-b58a-d17301f1e04f:aed18ef5-da09-49aa-84fe-dd43a4fed0ba
+Python 3.9.16
+usage: conda [-h] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: 'activate' (choose from 'clean', 'compare', 'config', 'create', 'info', 'init', 'install', 'list', 'notices', 'package', 'remove', 'uninstall', 'rename', 'run', 'search', 'update', 'upgrade', 'doctor', 'env', 'content-trust')
+Python 3.9.13
+Python 3.9.16
+[I 12:25:40.302 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:27:41.288 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:31:42.295 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:33:42.634 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:48:16.140 NotebookApp] Kernel restarted: 6e67fb01-bad4-4709-b58a-d17301f1e04f
+[I 12:48:16.232 NotebookApp] Starting buffering for 6e67fb01-bad4-4709-b58a-d17301f1e04f:aed18ef5-da09-49aa-84fe-dd43a4fed0ba
+[I 12:48:16.243 NotebookApp] Restoring connection for 6e67fb01-bad4-4709-b58a-d17301f1e04f:aed18ef5-da09-49aa-84fe-dd43a4fed0ba
+[I 12:49:43.039 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:55:43.173 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:57:43.225 NotebookApp] Saving file at /code_prototype.ipynb
+[I 12:59:43.288 NotebookApp] Saving file at /code_prototype.ipynb
+[I 13:01:43.386 NotebookApp] Saving file at /code_prototype.ipynb
+slurmstepd: error: *** JOB 26807431 ON gpu504-37 CANCELLED AT 2023-07-31T13:54:49 DUE TO TIME LIMIT ***

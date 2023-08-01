@@ -1,0 +1,62 @@
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+UCX 1.9.0 is now loaded
+Open MPI 4.0.3 is now loaded
+Loading module for cudnn
+cudnn is now loaded
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+GNU 9.2.0 is now loaded
+Loading module for Machine Learning 2022.11
+Machine Learning 2022.11 is now loaded
+gpu504-37 pinned to port 10020
+ 
+To connect to the compute node gpu504-37 on IBEX running your jupyter notebook server, you need to run following two commands in a terminal 1. 
+Command to create ssh tunnel from you workstation/laptop to glogin: 
+
+ssh -L 10020:gpu504-37:10020 abdulna@glogin.ibex.kaust.edu.sa 
+
+Copy the link provided below by jupyter-server and replace the NODENAME with localhost before pasting it in your browser on your workstation/laptop 
+[I 08:23:22.398 NotebookApp] Loading IPython parallel extension
+[W 2023-08-01 08:23:24.146 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-01 08:23:24.146 LabApp] 'port_retries' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-01 08:23:24.146 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-01 08:23:24.146 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-01 08:23:24.146 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-08-01 08:23:24.166 LabApp] JupyterLab extension loaded from /sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyterlab
+[I 2023-08-01 08:23:24.166 LabApp] JupyterLab application directory is /sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/share/jupyter/lab
+[I 08:23:24.588 NotebookApp] Serving notebooks from local directory: /home/abdulna/test
+[I 08:23:24.588 NotebookApp] Jupyter Notebook 6.5.1 is running at:
+[I 08:23:24.588 NotebookApp] http://gpu504-37:10020/?token=8422df837c434af143276ff6a9f73d5b7084286e635c6b3d
+[I 08:23:24.588 NotebookApp]  or http://127.0.0.1:10020/?token=8422df837c434af143276ff6a9f73d5b7084286e635c6b3d
+[I 08:23:24.588 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:23:24.609 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/abdulna/.local/share/jupyter/runtime/nbserver-30779-open.html
+    Or copy and paste one of these URLs:
+        http://gpu504-37:10020/?token=8422df837c434af143276ff6a9f73d5b7084286e635c6b3d
+     or http://127.0.0.1:10020/?token=8422df837c434af143276ff6a9f73d5b7084286e635c6b3d
+[W 08:23:36.760 NotebookApp] Kernel does not exist: 6e67fb01-bad4-4709-b58a-d17301f1e04f
+[W 08:23:36.762 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f?1690867416750 (10.109.66.157) 4.550000ms referer=http://127.0.0.1:10020/lab/tree/code_prototype.ipynb
+[W 08:23:37.856 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f/channels?session_id=aed18ef5-da09-49aa-84fe-dd43a4fed0ba (10.109.66.157) 101.130000ms referer=None
+[W 08:23:37.921 NotebookApp] Kernel does not exist: 6e67fb01-bad4-4709-b58a-d17301f1e04f
+[W 08:23:37.922 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f?1690867417919 (10.109.66.157) 2.790000ms referer=http://127.0.0.1:10020/lab/tree/code_prototype.ipynb
+[W 08:23:38.758 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f/channels?session_id=aed18ef5-da09-49aa-84fe-dd43a4fed0ba (10.109.66.157) 5.250000ms referer=None
+[W 08:23:38.766 NotebookApp] Kernel does not exist: 6e67fb01-bad4-4709-b58a-d17301f1e04f
+[W 08:23:38.767 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f?1690867418765 (10.109.66.157) 1.590000ms referer=http://127.0.0.1:10020/lab/tree/code_prototype.ipynb
+[W 08:23:45.766 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f/channels?session_id=aed18ef5-da09-49aa-84fe-dd43a4fed0ba (10.109.66.157) 5.060000ms referer=None
+[W 08:23:45.773 NotebookApp] Kernel does not exist: 6e67fb01-bad4-4709-b58a-d17301f1e04f
+[W 08:23:45.773 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f?1690867425772 (10.109.66.157) 1.660000ms referer=http://127.0.0.1:10020/lab/tree/code_prototype.ipynb
+[W 08:23:58.766 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f/channels?session_id=aed18ef5-da09-49aa-84fe-dd43a4fed0ba (10.109.66.157) 4.650000ms referer=None
+[W 08:23:58.772 NotebookApp] Kernel does not exist: 6e67fb01-bad4-4709-b58a-d17301f1e04f
+[W 08:23:58.773 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f?1690867438771 (10.109.66.157) 1.680000ms referer=http://127.0.0.1:10020/lab/tree/code_prototype.ipynb
+[W 08:24:19.781 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f/channels?session_id=aed18ef5-da09-49aa-84fe-dd43a4fed0ba (10.109.66.157) 10.170000ms referer=None
+[W 08:24:19.789 NotebookApp] Kernel does not exist: 6e67fb01-bad4-4709-b58a-d17301f1e04f
+[W 08:24:19.790 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f?1690867459787 (10.109.66.157) 1.640000ms referer=http://127.0.0.1:10020/lab/tree/code_prototype.ipynb
+[W 08:24:35.768 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f/channels?session_id=aed18ef5-da09-49aa-84fe-dd43a4fed0ba (10.109.66.157) 6.200000ms referer=None
+[W 08:24:35.774 NotebookApp] Kernel does not exist: 6e67fb01-bad4-4709-b58a-d17301f1e04f
+[W 08:24:35.775 NotebookApp] 404 GET /api/kernels/6e67fb01-bad4-4709-b58a-d17301f1e04f?1690867475773 (10.109.66.157) 1.660000ms referer=http://127.0.0.1:10020/lab/tree/code_prototype.ipynb
+[I 08:29:55.034 NotebookApp] New terminal with automatic name: 1

@@ -1,0 +1,196 @@
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+UCX 1.9.0 is now loaded
+Open MPI 4.0.3 is now loaded
+Loading module for cudnn
+cudnn is now loaded
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+GNU 9.2.0 is now loaded
+Loading module for Machine Learning 2022.11
+Machine Learning 2022.11 is now loaded
+gpu504-37 pinned to port 10020
+ 
+To connect to the compute node gpu504-37 on IBEX running your jupyter notebook server, you need to run following two commands in a terminal 1. 
+Command to create ssh tunnel from you workstation/laptop to glogin: 
+
+ssh -L 10020:gpu504-37:10020 abdulna@glogin.ibex.kaust.edu.sa 
+
+Copy the link provided below by jupyter-server and replace the NODENAME with localhost before pasting it in your browser on your workstation/laptop 
+[I 21:44:16.787 NotebookApp] Loading IPython parallel extension
+[W 2023-07-30 21:44:18.530 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-30 21:44:18.531 LabApp] 'port_retries' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-30 21:44:18.531 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-30 21:44:18.531 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-30 21:44:18.531 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-30 21:44:18.544 LabApp] JupyterLab extension loaded from /sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyterlab
+[I 2023-07-30 21:44:18.544 LabApp] JupyterLab application directory is /sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/share/jupyter/lab
+[I 21:44:18.893 NotebookApp] Serving notebooks from local directory: /home/abdulna/test
+[I 21:44:18.893 NotebookApp] Jupyter Notebook 6.5.1 is running at:
+[I 21:44:18.893 NotebookApp] http://gpu504-37:10020/?token=92484b88c172e358b50c5796aba751916ea567945bff3f24
+[I 21:44:18.893 NotebookApp]  or http://127.0.0.1:10020/?token=92484b88c172e358b50c5796aba751916ea567945bff3f24
+[I 21:44:18.893 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 21:44:18.914 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/abdulna/.local/share/jupyter/runtime/nbserver-129872-open.html
+    Or copy and paste one of these URLs:
+        http://gpu504-37:10020/?token=92484b88c172e358b50c5796aba751916ea567945bff3f24
+     or http://127.0.0.1:10020/?token=92484b88c172e358b50c5796aba751916ea567945bff3f24
+[I 21:44:44.559 NotebookApp] 302 GET /?token=92484b88c172e358b50c5796aba751916ea567945bff3f24 (10.109.66.127) 1.810000ms
+[W 21:44:44.804 NotebookApp] 404 GET /static/components/jquery-ui/themes/smoothness/jquery-ui.min.css (10.109.66.127) 14.650000ms referer=http://127.0.0.1:10020/tree?token=92484b88c172e358b50c5796aba751916ea567945bff3f24
+[I 2023-07-30 21:45:00.658 LabApp] Build is up to date
+WARNING:bokeh.server.util:Host wildcard '*' will allow connections originating from multiple (or possibly all) hostnames or IPs. Use non-wildcard values to restrict access explicitly
+[I 21:45:03.827 NotebookApp] New terminal with automatic name: 1
+[I 21:45:04.480 NotebookApp] Kernel started: 28d5671d-9f78-4228-adfa-54faecdce733, name: python3
+[I 21:45:04.494 NotebookApp] Kernel started: 14df2c77-8363-4076-a1de-fd08216833a1, name: python3
+[I 21:45:07.223 NotebookApp] Starting buffering for 14df2c77-8363-4076-a1de-fd08216833a1:b3ba5f0e-5a13-4b03-a95b-8213dd68da02
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 34e60d17-49b5-43b7-a2a4-8c0538cd21fc
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8647b8be-728c-440e-a5ba-a04d777b0673
+[I 21:45:55.419 NotebookApp] Creating new file in 
+[W 21:46:26.209 NotebookApp] delete /untitled.txt
+[I 21:46:42.400 NotebookApp] Kernel shutdown: 14df2c77-8363-4076-a1de-fd08216833a1
+[W 21:46:42.634 NotebookApp] delete /Untitled1.ipynb
+[I 21:46:51.417 NotebookApp] Kernel shutdown: 28d5671d-9f78-4228-adfa-54faecdce733
+[W 21:46:51.672 NotebookApp] delete /Untitled.ipynb
+[I 21:46:57.795 NotebookApp] Creating new notebook in 
+[I 21:46:58.129 NotebookApp] Kernel started: 7dccdcf2-43ce-4a47-b4d8-bb447bd96306, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6ceca4f7-cc0b-4429-9178-776f43e5fbc3
+[I 21:48:42.727 NotebookApp] Creating new notebook in 
+[I 21:48:43.106 NotebookApp] Kernel started: 0878318e-d3fb-4e51-855c-48fd1af4b89b, name: xpython-raw
+ERROR: received bad message: No such comm target registered: jupyter.widget.control
+Message type: comm_open
+ERROR: received bad message: No such comm registered: 8455ef65-a8b6-46af-ae03-62c57e10f74b
+Message type: comm_msg
+[I 21:48:57.605 NotebookApp] Kernel shutdown: 0878318e-d3fb-4e51-855c-48fd1af4b89b
+[W 21:48:57.743 NotebookApp] delete /Untitled.ipynb
+[I 21:48:58.000 NotebookApp] Saving file at /code_prototype.ipynb
+[I 21:52:58.102 NotebookApp] Saving file at /code_prototype.ipynb
+[I 21:58:58.177 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:00:58.225 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:04:59.124 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:09:00.112 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:09:36.364 NotebookApp] Saving file at /environment.yml
+[I 22:11:36.403 NotebookApp] Saving file at /environment.yml
+[I 22:12:40.124 NotebookApp] Kernel started: fccd29ae-fe53-4426-96e0-46d2a1590bb3, name: pytorch-env
+[I 22:12:40.127 NotebookApp] Kernel shutdown: 7dccdcf2-43ce-4a47-b4d8-bb447bd96306
+[I 22:12:53.213 NotebookApp] Kernel restarted: fccd29ae-fe53-4426-96e0-46d2a1590bb3
+[I 22:12:53.222 NotebookApp] Starting buffering for fccd29ae-fe53-4426-96e0-46d2a1590bb3:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+[I 22:12:53.231 NotebookApp] Restoring connection for fccd29ae-fe53-4426-96e0-46d2a1590bb3:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+[IPKernelApp] ERROR | KeyboardInterrupt caught in kernel.
+[I 22:12:56.265 NotebookApp] Kernel interrupted: fccd29ae-fe53-4426-96e0-46d2a1590bb3
+[I 22:12:57.057 NotebookApp] Kernel interrupted: fccd29ae-fe53-4426-96e0-46d2a1590bb3
+[I 22:13:00.184 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:13:01.238 NotebookApp] Kernel restarted: fccd29ae-fe53-4426-96e0-46d2a1590bb3
+[I 22:13:01.314 NotebookApp] Starting buffering for fccd29ae-fe53-4426-96e0-46d2a1590bb3:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+[I 22:13:01.323 NotebookApp] Restoring connection for fccd29ae-fe53-4426-96e0-46d2a1590bb3:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+[I 22:14:34.261 NotebookApp] Kernel started: 3903d569-500d-47c4-8660-b8b513001f08, name: myenv
+[I 22:14:34.263 NotebookApp] Kernel shutdown: fccd29ae-fe53-4426-96e0-46d2a1590bb3
+This version of python seems to be incorrectly compiled
+(internal generated filenames are not absolute).
+This may make the debugger miss breakpoints.
+Related bug: http://bugs.python.org/issue1666807
+[I 22:14:51.205 NotebookApp] Kernel restarted: 3903d569-500d-47c4-8660-b8b513001f08
+[I 22:14:51.298 NotebookApp] Starting buffering for 3903d569-500d-47c4-8660-b8b513001f08:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+[I 22:14:51.308 NotebookApp] Restoring connection for 3903d569-500d-47c4-8660-b8b513001f08:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+This version of python seems to be incorrectly compiled
+(internal generated filenames are not absolute).
+This may make the debugger miss breakpoints.
+Related bug: http://bugs.python.org/issue1666807
+[I 22:15:00.241 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:15:12.568 NotebookApp] Kernel started: e69045d9-7968-414f-abfa-b0cdcd39aba7, name: pytorch-env
+[I 22:15:12.570 NotebookApp] Kernel shutdown: 3903d569-500d-47c4-8660-b8b513001f08
+[I 22:15:36.333 NotebookApp] Kernel started: 60587455-5972-492d-a0e8-1b030dfb4ab8, name: python3
+[I 22:15:36.335 NotebookApp] Kernel shutdown: e69045d9-7968-414f-abfa-b0cdcd39aba7
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f44972f4-f722-403d-8315-346f35f6ba28
+[I 22:15:52.335 NotebookApp] Kernel started: 5535576f-bcad-472c-a6f9-25cb8720ba5e, name: xpython-raw
+[I 22:15:52.337 NotebookApp] Kernel shutdown: 60587455-5972-492d-a0e8-1b030dfb4ab8
+ERROR: received bad message: No such comm target registered: jupyter.widget.control
+Message type: comm_open
+ERROR: received bad message: No such comm registered: 222c1587-61e5-4d14-87d1-2e1d473e22eb
+Message type: comm_msg
+[I 22:16:08.760 NotebookApp] Kernel started: 26945212-02cd-4c42-9435-1b31cec9e507, name: xpython
+[I 22:16:08.763 NotebookApp] Kernel shutdown: 5535576f-bcad-472c-a6f9-25cb8720ba5e
+[XPythonShellApp] WARNING | Unrecognized alias: 'f', it will have no effect.
+ERROR: received bad message: No such comm target registered: jupyter.widget.control
+Message type: comm_open
+ERROR: received bad message: No such comm registered: 860c8a77-3d9f-4f48-8cd9-e7ca37a2dae6
+Message type: comm_msg
+[I 22:16:19.794 NotebookApp] Kernel started: 44fd760a-fc62-425f-9c11-09bbdbb5465e, name: pytorch-env
+[I 22:16:19.796 NotebookApp] Kernel shutdown: 26945212-02cd-4c42-9435-1b31cec9e507
+[I 22:17:00.303 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:28:38.747 NotebookApp] Kernel restarted: 44fd760a-fc62-425f-9c11-09bbdbb5465e
+[I 22:28:38.844 NotebookApp] Starting buffering for 44fd760a-fc62-425f-9c11-09bbdbb5465e:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+[I 22:28:38.853 NotebookApp] Restoring connection for 44fd760a-fc62-425f-9c11-09bbdbb5465e:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+[I 22:28:54.188 NotebookApp] Kernel restarted: 44fd760a-fc62-425f-9c11-09bbdbb5465e
+[I 22:28:54.303 NotebookApp] Starting buffering for 44fd760a-fc62-425f-9c11-09bbdbb5465e:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+[I 22:28:54.312 NotebookApp] Restoring connection for 44fd760a-fc62-425f-9c11-09bbdbb5465e:ae2a7014-e669-4ee0-bffc-2bc59fee86f2
+[I 22:29:00.655 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:29:08.184 NotebookApp] Kernel shutdown: 44fd760a-fc62-425f-9c11-09bbdbb5465e
+[I 22:29:12.211 NotebookApp] Kernel started: c57d161e-6ef7-47e8-8f50-4abe110d0db5, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b3ddd876-e35a-42b1-8c2f-a3ec4cf88445
+[I 22:29:28.844 NotebookApp] Kernel started: 881fe609-7d13-4903-ad90-0a050a64e79f, name: myenv
+[I 22:29:28.846 NotebookApp] Kernel shutdown: c57d161e-6ef7-47e8-8f50-4abe110d0db5
+This version of python seems to be incorrectly compiled
+(internal generated filenames are not absolute).
+This may make the debugger miss breakpoints.
+Related bug: http://bugs.python.org/issue1666807
+[I 22:29:39.658 NotebookApp] Kernel started: 861a44db-f90d-40a0-b672-c4f8d3b00479, name: pytorch-env
+[I 22:29:39.660 NotebookApp] Kernel shutdown: 881fe609-7d13-4903-ad90-0a050a64e79f
+[I 22:31:00.718 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:34:25.100 NotebookApp] Kernel started: a621852d-2a8e-4f16-940e-60602805cb86, name: python3
+[I 22:34:25.103 NotebookApp] Kernel shutdown: 861a44db-f90d-40a0-b672-c4f8d3b00479
+[I 22:35:00.780 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:37:00.829 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:39:00.891 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:40:12.519 NotebookApp] Saving file at /environment.yml
+[I 22:40:48.545 NotebookApp] Kernel restarted: a621852d-2a8e-4f16-940e-60602805cb86
+[I 22:40:48.626 NotebookApp] Starting buffering for a621852d-2a8e-4f16-940e-60602805cb86:ae0ac5c7-b006-47eb-b064-bf9f84e472dc
+[I 22:40:48.635 NotebookApp] Restoring connection for a621852d-2a8e-4f16-940e-60602805cb86:ae0ac5c7-b006-47eb-b064-bf9f84e472dc
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9dbe913a-bc02-4636-8722-12e5c6e6f89f
+[I 22:41:00.941 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:43:00.986 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:44:10.546 NotebookApp] Kernel interrupted: a621852d-2a8e-4f16-940e-60602805cb86
+[I 22:44:20.162 NotebookApp] Kernel started: 2602e5af-d3da-4669-a704-735d920ecd71, name: test2
+[I 22:44:20.166 NotebookApp] Kernel shutdown: a621852d-2a8e-4f16-940e-60602805cb86
+[I 22:45:01.041 NotebookApp] Saving file at /code_prototype.ipynb
+[W 22:46:07.685 NotebookApp] /home/abdulna/test/env/bin/python is not UTF-8 encoded
+[W 22:46:07.686 NotebookApp] 400 GET /api/contents/env/bin/python?type=file&content=1&format=text&1690746367233 (10.109.66.127) 451.200000ms referer=http://127.0.0.1:10020/lab/tree/env/bin/2to3
+[W 22:46:12.731 NotebookApp] /home/abdulna/test/env/bin/python is not UTF-8 encoded
+[W 22:46:12.732 NotebookApp] 400 GET /api/contents/env/bin/python?type=file&content=1&format=text&1690746372680 (10.109.66.127) 49.360000ms referer=http://127.0.0.1:10020/lab/tree/env/bin/2to3
+[I 22:47:01.092 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:49:01.152 NotebookApp] Saving file at /code_prototype.ipynb
+[I 22:50:47.544 NotebookApp] Kernel started: 3e4f61e5-3427-4cb3-b055-b8152cba85ff, name: python3
+[I 22:50:47.546 NotebookApp] Kernel shutdown: 2602e5af-d3da-4669-a704-735d920ecd71
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 76e9584a-b72f-44e8-bd2d-c9e326f8e3db
+[I 22:50:51.533 NotebookApp] Kernel restarted: 3e4f61e5-3427-4cb3-b055-b8152cba85ff
+[I 22:50:51.542 NotebookApp] Starting buffering for 3e4f61e5-3427-4cb3-b055-b8152cba85ff:ae0ac5c7-b006-47eb-b064-bf9f84e472dc
+[I 22:50:51.553 NotebookApp] Restoring connection for 3e4f61e5-3427-4cb3-b055-b8152cba85ff:ae0ac5c7-b006-47eb-b064-bf9f84e472dc
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: e23aa4f6-1501-4434-848d-7858b6a72b6f
+[I 22:51:02.117 NotebookApp] Saving file at /code_prototype.ipynb
+[I 23:18:38.508 NotebookApp] Starting buffering for 3e4f61e5-3427-4cb3-b055-b8152cba85ff:ae0ac5c7-b006-47eb-b064-bf9f84e472dc
+[I 2023-07-30 23:18:44.019 LabApp] Build is up to date
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6c3a3a33-3d0f-46b8-b6c5-8e5739be411c
+[I 23:19:04.062 NotebookApp] New terminal with automatic name: 2
+[I 23:39:46.277 NotebookApp] Kernel started: d5107566-620b-4a03-9268-c72be97e65d0, name: myenv
+[I 23:39:46.279 NotebookApp] Kernel shutdown: 3e4f61e5-3427-4cb3-b055-b8152cba85ff
+[I 23:40:03.241 NotebookApp] Kernel restarted: d5107566-620b-4a03-9268-c72be97e65d0
+[I 23:40:03.250 NotebookApp] Starting buffering for d5107566-620b-4a03-9268-c72be97e65d0:aa8fe8a2-7042-4e71-984c-a41e3d6a1b6b
+[I 23:40:03.258 NotebookApp] Restoring connection for d5107566-620b-4a03-9268-c72be97e65d0:aa8fe8a2-7042-4e71-984c-a41e3d6a1b6b
+[I 23:40:47.207 NotebookApp] Saving file at /code_prototype.ipynb
+[I 23:42:47.315 NotebookApp] Saving file at /code_prototype.ipynb
+[I 23:43:12.797 NotebookApp] Saving file at /code_prototype.ipynb
+[W 23:43:12.861 NotebookApp] 404 GET /panel-preview/render/code_prototype.ipynb (10.109.66.127) 5.860000ms referer=None
+[W 23:43:13.093 NotebookApp] 404 GET /static/components/jquery-ui/themes/smoothness/jquery-ui.min.css (10.109.66.127) 2.380000ms referer=http://127.0.0.1:10020/panel-preview/render/code_prototype.ipynb
+slurmstepd: error: *** JOB 26804664 ON gpu504-37 CANCELLED AT 2023-07-30T23:44:26 DUE TO TIME LIMIT ***
