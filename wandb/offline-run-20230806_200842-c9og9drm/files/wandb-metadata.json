@@ -1,0 +1,205 @@
+{
+    "os": "Linux-3.10.0-1160.76.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-08-06T17:08:42.501819",
+    "startedAt": "2023-08-06T17:08:42.078891",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/abdulna/test/./App/pegasus_finetune.py",
+    "codePath": "App/pegasus_finetune.py",
+    "git": {
+        "remote": null,
+        "commit": "3106adbd74b5fda54e977c2f04e51ae8d3877e63"
+    },
+    "email": null,
+    "root": "/home/abdulna/test",
+    "host": "gpu504-37",
+    "username": "abdulna",
+    "executable": "/home/abdulna/miniconda3/envs/myenv2/bin/python",
+    "cpu_count": 32,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1.20815625,
+        "min": 1000.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1.097,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3.4,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3.405,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2.599,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.001,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.199,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.197,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.081,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.016,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.001,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.001,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.005,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1.0,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 0.999,
+            "min": 1000.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "total": 188.29451370239258,
+        "used": 9.063102722167969
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 376.58902740478516
+    }
+}

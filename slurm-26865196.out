@@ -1,0 +1,1659 @@
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+UCX 1.9.0 is now loaded
+Open MPI 4.0.3 is now loaded
+Loading module for cudnn
+cudnn is now loaded
+Loading module for CUDA 11.2.2
+CUDA 11.2.2 is now loaded
+GNU 9.2.0 is now loaded
+Loading module for Machine Learning 2022.11
+Machine Learning 2022.11 is now loaded
+dgpu502-37 pinned to port 10400
+ 
+To connect to the compute node dgpu502-37 on IBEX running your jupyter notebook server, you need to run following two commands in a terminal 1. 
+Command to create ssh tunnel from you workstation/laptop to glogin: 
+
+ssh -L 10400:dgpu502-37:10400 abdulna@glogin.ibex.kaust.edu.sa 
+
+Copy the link provided below by jupyter-server and replace the NODENAME with localhost before pasting it in your browser on your workstation/laptop 
+[I 22:41:17.796 NotebookApp] Loading IPython parallel extension
+[W 2023-08-06 22:41:19.354 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-06 22:41:19.354 LabApp] 'port_retries' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-06 22:41:19.354 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-06 22:41:19.354 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-08-06 22:41:19.354 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-08-06 22:41:19.368 LabApp] JupyterLab extension loaded from /sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyterlab
+[I 2023-08-06 22:41:19.368 LabApp] JupyterLab application directory is /sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/share/jupyter/lab
+[I 22:41:19.681 NotebookApp] Serving notebooks from local directory: /home/abdulna/test
+[I 22:41:19.681 NotebookApp] Jupyter Notebook 6.5.1 is running at:
+[I 22:41:19.681 NotebookApp] http://dgpu502-37:10400/?token=be92d4b489bd287a143b51516c1f798e4a17c57661fc206c
+[I 22:41:19.681 NotebookApp]  or http://127.0.0.1:10400/?token=be92d4b489bd287a143b51516c1f798e4a17c57661fc206c
+[I 22:41:19.681 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:41:19.699 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/abdulna/.local/share/jupyter/runtime/nbserver-14517-open.html
+    Or copy and paste one of these URLs:
+        http://dgpu502-37:10400/?token=be92d4b489bd287a143b51516c1f798e4a17c57661fc206c
+     or http://127.0.0.1:10400/?token=be92d4b489bd287a143b51516c1f798e4a17c57661fc206c
+[I 22:42:24.663 NotebookApp] 302 GET /?token=be92d4b489bd287a143b51516c1f798e4a17c57661fc206c (10.109.66.127) 1.590000ms
+[W 22:42:25.007 NotebookApp] 404 GET /static/components/jquery-ui/themes/smoothness/jquery-ui.min.css (10.109.66.127) 17.000000ms referer=http://127.0.0.1:10400/tree?token=be92d4b489bd287a143b51516c1f798e4a17c57661fc206c
+[I 22:42:31.814 NotebookApp] 301 GET /static/favicons/favicon.ico (10.109.66.127) 0.650000ms
+[I 2023-08-06 22:42:37.369 LabApp] Build is up to date
+WARNING:bokeh.server.util:Host wildcard '*' will allow connections originating from multiple (or possibly all) hostnames or IPs. Use non-wildcard values to restrict access explicitly
+[I 22:42:41.007 NotebookApp] 301 GET /static/favicons/favicon.ico (10.109.66.127) 3635.640000ms
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 22:42:42.814 NotebookApp] New terminal with automatic name: 1
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 22:42:42.863 NotebookApp] New terminal with automatic name: 2
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 22:42:43.742 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 22:42:43.813 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+[I 22:42:44.669 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Resources/ws
+[I 22:42:45.017 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Resources/ws
+[I 22:42:45.071 NotebookApp] Kernel started: 13a39df0-a786-4aa3-9a8d-e79d23440288, name: myenv2
+[I 22:42:45.083 NotebookApp] Kernel started: 7e3b115f-c4a4-417e-a381-a4332c4d31f1, name: myenv2
+[I 22:42:45.097 NotebookApp] Kernel started: 7506a6b2-2573-4128-baf9-c0bcda6736a8, name: myenv2
+[I 22:42:53.748 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:4f872642-5fce-443d-a266-42be75ab78b1
+[I 22:42:53.778 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (10.109.66.127) 0.420000ms
+[I 22:42:53.955 NotebookApp] 301 GET /static/favicons/favicon-busy-1.ico (10.109.66.127) 0.440000ms
+[I 22:49:25.074 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 22:57:26.433 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 22:59:26.492 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:03:27.435 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:04:20.307 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:04:52.067 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:10:26.948 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:11:07.768 NotebookApp] Saving file at /App/pegasus_finetune.py
+[W 23:13:54.930 NotebookApp] /home/abdulna/test/model/pytorch_model.bin is not UTF-8 encoded
+[W 23:13:54.931 NotebookApp] 400 GET /api/contents/model/pytorch_model.bin?type=file&content=1&format=text&1691352831924 (10.109.66.127) 3001.400000ms referer=http://127.0.0.1:10400/lab/tree/model/config.json
+[I 23:17:08.441 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:19:09.423 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:19:24.454 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:21:24.505 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:21:38.889 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 23:43:35.053 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:5e7f32f2-d1f6-4ce9-ae41-4a4ad3888650
+[I 23:43:35.054 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:4b42be31-aafe-42e1-991f-1c94ad506481
+[I 23:43:35.055 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:d219635b-92ce-4f41-9655-b6225ff1c85f
+[I 23:44:04.887 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:d219635b-92ce-4f41-9655-b6225ff1c85f
+[I 23:44:24.545 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:5e7f32f2-d1f6-4ce9-ae41-4a4ad3888650
+[I 23:44:34.859 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:d219635b-92ce-4f41-9655-b6225ff1c85f
+[I 23:44:34.861 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:5e7f32f2-d1f6-4ce9-ae41-4a4ad3888650
+[I 23:44:34.862 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:4b42be31-aafe-42e1-991f-1c94ad506481
+[I 23:44:34.879 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:5e7f32f2-d1f6-4ce9-ae41-4a4ad3888650
+[W 23:46:04.880 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 23:46:04.901 NotebookApp] WebSocket ping timeout after 90002 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 23:46:09.883 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:5e7f32f2-d1f6-4ce9-ae41-4a4ad3888650
+[I 00:42:44.386 NotebookApp] EOF on FD 20; stopping reading
+[I 00:42:44.487 NotebookApp] Terminal 1 closed
+[I 01:10:45.791 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:4b42be31-aafe-42e1-991f-1c94ad506481
+[I 01:10:46.730 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:d219635b-92ce-4f41-9655-b6225ff1c85f
+[I 01:10:55.092 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:5e7f32f2-d1f6-4ce9-ae41-4a4ad3888650
+[I 01:12:18.954 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:d219635b-92ce-4f41-9655-b6225ff1c85f
+[I 01:12:18.957 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:5e7f32f2-d1f6-4ce9-ae41-4a4ad3888650
+[I 01:12:18.957 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:a75b197a-6090-4c4e-82c6-c20aea09d735
+[I 01:12:19.006 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:a75b197a-6090-4c4e-82c6-c20aea09d735
+[I 01:12:19.034 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:5e7f32f2-d1f6-4ce9-ae41-4a4ad3888650
+[I 01:13:18.626 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:5e7f32f2-d1f6-4ce9-ae41-4a4ad3888650
+[I 01:13:18.630 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:4b42be31-aafe-42e1-991f-1c94ad506481
+[I 2023-08-07 08:49:44.398 LabApp] Build is up to date
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 08:49:51.465 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 08:49:51.506 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Resources/ws
+[I 08:49:51.529 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Resources/ws
+[I 08:49:51.529 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+[I 09:03:51.282 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:05:51.347 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:09:51.402 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:10:18.089 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:14:44.537 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:18:23.080 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:23:46.023 NotebookApp] Creating new file in /App
+[I 09:25:46.345 NotebookApp] Saving file at /App/untitled.py
+[I 09:26:23.156 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:28:23.209 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:30:00.777 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:32:00.870 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:34:00.949 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:36:01.004 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:36:07.831 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:38:07.886 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 09:38:35.551 NotebookApp] Saving file at /App/pegasus_finetune.py
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+2023-08-07 09:38:39,663 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 09:38:39.937 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 09:38:40.106 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+[I 10:14:22.931 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 10:16:23.010 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 10:18:08.913 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 10:19:18.481 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 10:20:34.286 NotebookApp] Saving file at /App/pegasus_finetune.py
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+2023-08-07 10:20:51,166 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 10:20:51.408 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 10:20:51.421 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+[I 10:32:32.011 NotebookApp] Saving file at /App/pegasus_finetune.py
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+2023-08-07 10:34:33,102 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 10:34:33.386 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 10:34:33.434 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+[I 10:35:04.676 NotebookApp] Saving file at /App/pegasus_finetune.py
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+2023-08-07 10:38:14,100 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 10:38:14.467 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 10:38:14.503 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+[I 10:38:37.301 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 10:41:57.696 NotebookApp] Saving file at /App/pegasus_finetune.py
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+2023-08-07 10:43:46,425 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 10:43:46.511 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 10:43:46.579 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 10:43:57.741 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 10:45:12.166 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 10:48:11.202 NotebookApp] Saving file at /App/pegasus_finetune.py
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+2023-08-07 10:49:50,291 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 10:49:50.429 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 10:49:50.482 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 11:07:50.919 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 11:07:50.920 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 11:07:50.921 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+2023-08-07 11:07:51,015 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 11:12:43.116 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 11:12:46.293 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+[I 11:12:47.730 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 11:14:18.197 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:14:24.891 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:16:24.922 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:16:51.670 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:24:29.962 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 11:24:29.963 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+[I 11:24:29.963 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[W 11:25:59.978 NotebookApp] WebSocket ping timeout after 90001 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(19, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(19, 1)>
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/management.py", line 252, in pty_read
+    client.on_pty_read(s)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 73, in on_pty_read
+    self.send_json_message(["stdout", text])
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/terminado/websocket.py", line 77, in send_json_message
+    self.write_message(json_msg)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/notebook/terminal/handlers.py", line 74, in write_message
+    super().write_message(message, binary=binary)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 11:26:56.893 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 11:26:56.914 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+[I 11:26:56.950 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 11:29:01.277 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:29:01.798 NotebookApp] Saving file at /App/pegasus_finetune.py
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 11:29:17.312 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 11:29:17.316 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+[I 11:30:45.508 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:34:18.131 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:35:51.951 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:37:08.413 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:39:23.095 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:41:23.521 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:45:21.387 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:48:25.229 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:50:25.262 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:54:42.293 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 11:57:48.256 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 12:00:39.570 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+[I 12:00:39.572 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 12:00:39.573 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[W 12:02:09.587 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 12:08:33.782 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 12:08:43.051 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+[I 12:08:43.138 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 12:33:06.098 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 12:39:06.153 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 12:39:42.342 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 12:39:52.594 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 12:41:16.779 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 12:54:07.731 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+[I 12:54:07.733 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 12:54:07.734 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 12:54:34.471 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 12:54:34.505 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+[I 12:54:34.648 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 12:56:48.879 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 12:59:09.443 NotebookApp] Saving file at /App/untitled.py
+[I 13:01:10.467 NotebookApp] Saving file at /App/untitled.py
+[I 13:03:11.407 NotebookApp] Saving file at /App/untitled.py
+[I 13:03:30.114 NotebookApp] Creating new notebook in /App
+[I 13:03:30.808 NotebookApp] Kernel started: f852f5e2-bf54-437f-8c3a-1201ea49f200, name: python3
+[I 13:03:41.562 NotebookApp] Kernel started: 796cec8f-354a-4fd9-bd09-008b927350d8, name: myenv2
+[I 13:03:41.565 NotebookApp] Kernel shutdown: f852f5e2-bf54-437f-8c3a-1201ea49f200
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 18, in <module>
+    from IPython.core.application import (
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/IPython/__init__.py", line 52, in <module>
+    from .terminal.embed import embed
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/IPython/terminal/embed.py", line 16, in <module>
+    from IPython.terminal.interactiveshell import TerminalInteractiveShell
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/IPython/terminal/interactiveshell.py", line 46, in <module>
+    from .debugger import TerminalPdb, Pdb
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/IPython/terminal/debugger.py", line 6, in <module>
+    from IPython.core.completer import IPCompleter
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/IPython/core/completer.py", line 246, in <module>
+    import jedi
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jedi/__init__.py", line 32, in <module>
+    from jedi.api import Script, Interpreter, set_debug_function, preload_module
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jedi/api/__init__.py", line 21, in <module>
+    from jedi.api import classes
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jedi/api/classes.py", line 24, in <module>
+    from jedi.inference.utils import unite
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jedi/inference/__init__.py", line 70, in <module>
+    from jedi.inference import imports
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jedi/inference/imports.py", line 29, in <module>
+    from jedi.inference.gradual.typeshed import import_module_decorator, \
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jedi/inference/gradual/typeshed.py", line 12, in <module>
+    from jedi.inference.gradual.stub_value import TypingModuleWrapper, StubModuleValue
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jedi/inference/gradual/stub_value.py", line 53, in <module>
+    class StubModuleContext(ModuleContext):
+KeyboardInterrupt
+[I 13:04:20.957 NotebookApp] Saving file at /App/Untitled.ipynb
+[I 13:04:22.562 NotebookApp] Saving file at /App/test_model.ipynb
+[W 13:04:31.281 NotebookApp] Timeout waiting for kernel_info reply from f852f5e2-bf54-437f-8c3a-1201ea49f200
+[E 13:04:31.283 NotebookApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: f852f5e2-bf54-437f-8c3a-1201ea49f200)
+[I 13:06:22.611 NotebookApp] Saving file at /App/test_model.ipynb
+[I 13:08:22.668 NotebookApp] Saving file at /App/test_model.ipynb
+[I 13:10:23.183 NotebookApp] Saving file at /App/test_model.ipynb
+[I 13:12:23.764 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:14:24.038 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:14:38.377 NotebookApp] Kernel restarted: 796cec8f-354a-4fd9-bd09-008b927350d8
+[I 14:16:24.446 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:18:24.501 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:20:25.443 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:22:25.508 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:24:26.440 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:28:26.548 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:30:26.832 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:32:26.885 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:34:26.934 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:36:26.983 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:38:27.031 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:38:53.947 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 14:41:51.258 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Utilization/ws
+[I 14:41:51.263 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Utilization/ws
+[I 14:41:54.710 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Utilization/ws
+[I 14:41:54.714 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Utilization/ws
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 14:42:04.920 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Resources/ws
+[I 14:42:04.924 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Resources/ws
+[I 14:44:27.104 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:46:27.180 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:50:27.556 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:52:27.642 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:54:09.328 NotebookApp] Kernel interrupted: 796cec8f-354a-4fd9-bd09-008b927350d8
+[I 14:54:27.937 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:56:08.245 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:58:11.127 NotebookApp] Saving file at /App/test_model.ipynb
+[I 14:58:22.242 NotebookApp] Kernel interrupted: 796cec8f-354a-4fd9-bd09-008b927350d8
+[I 14:59:09.109 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:885dd2ae-31d2-4f49-b266-f24e7c3809d1
+[I 14:59:09.110 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 14:59:09.111 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 14:59:09.112 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+2023-08-07 14:59:09,252 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2023-08-07 14:59:09,255 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 15:48:47.412 NotebookApp] Saving file at /App/test_model.ipynb
+[I 15:48:49.944 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+[I 15:48:51.321 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 15:48:51.505 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 15:54:47.515 NotebookApp] Saving file at /App/test_model.ipynb
+[I 15:55:30.678 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 15:56:47.593 NotebookApp] Saving file at /App/test_model.ipynb
+[I 16:16:47.737 NotebookApp] Saving file at /App/test_model.ipynb
+[I 16:17:30.793 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:18:35.398 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:18:47.806 NotebookApp] Saving file at /App/test_model.ipynb
+[I 16:18:58.202 NotebookApp] Saving file at /App/test_model.ipynb
+[I 16:20:58.261 NotebookApp] Saving file at /App/test_model.ipynb
+[I 16:22:58.621 NotebookApp] Saving file at /App/test_model.ipynb
+[I 16:24:58.694 NotebookApp] Saving file at /App/test_model.ipynb
+[W 16:35:11.454 NotebookApp] delete /results
+[W 16:35:17.560 NotebookApp] delete /model
+[I 16:37:49.427 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b5dbb753-8336-4977-a593-98070ef64551
+[I 16:37:49.430 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:3538bfdf-70bd-4406-8918-2368644bc37d
+[I 16:37:49.431 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:c185060d-89cf-4244-b2bc-2ec5fd7d7698
+[I 16:37:49.431 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:95c57389-76ee-4fe6-be12-632344e4e469
+[I 2023-08-07 16:38:13.020 LabApp] Build is up to date
+[W 16:38:16.592 NotebookApp] file or directory does not exist: 'model/config.json'
+[W 16:38:16.592 NotebookApp] 404 GET /api/contents/model/config.json?content=0&1691415496591 (10.109.66.157) 1.540000ms referer=http://127.0.0.1:10400/lab/tree/App/test_model.ipynb
+[W 16:38:16.594 NotebookApp] file or directory does not exist: 'model/generation_config.json'
+[W 16:38:16.594 NotebookApp] 404 GET /api/contents/model/generation_config.json?content=0&1691415496592 (10.109.66.157) 1.110000ms referer=http://127.0.0.1:10400/lab/tree/App/test_model.ipynb
+[W 16:38:16.595 NotebookApp] file or directory does not exist: 'model/special_tokens_map.json'
+[W 16:38:16.595 NotebookApp] 404 GET /api/contents/model/special_tokens_map.json?content=0&1691415496592 (10.109.66.157) 1.110000ms referer=http://127.0.0.1:10400/lab/tree/App/test_model.ipynb
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 16:38:19.224 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Utilization/ws
+[I 16:38:19.265 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Resources/ws
+[I 16:38:19.480 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Utilization/ws
+[I 16:38:19.480 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Resources/ws
+[I 16:38:43.004 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:40:43.051 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:41:13.538 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:43:13.592 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:43:50.322 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:45:50.369 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:53:50.441 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:54:22.416 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:56:05.506 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:56:08.416 NotebookApp] Saving file at /App/pegasus_finetune.py
+[W 16:56:25.981 NotebookApp] delete /results
+[I 16:56:33.259 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 16:58:28.017 NotebookApp] Saving file at /App/pegasus_finetune.py
+[W 17:00:33.230 NotebookApp] delete /model
+[I 17:01:33.773 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 17:04:13.514 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:393237ea-0e71-4167-ad4c-b56c370026b4
+[I 17:04:13.515 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:6e63f501-a071-47ac-8f54-e8ea99bea4b1
+[I 17:04:13.515 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:7571af62-f129-4aa1-8e47-b051730e3218
+[I 17:04:13.516 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:b10f2c54-4b3a-49a5-b0d0-77f3f8351ecd
+[I 17:04:13.541 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:7571af62-f129-4aa1-8e47-b051730e3218
+[W 17:05:43.543 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 17:05:48.545 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:7571af62-f129-4aa1-8e47-b051730e3218
+[I 18:04:24.697 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:7571af62-f129-4aa1-8e47-b051730e3218
+[I 18:04:26.658 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:6e63f501-a071-47ac-8f54-e8ea99bea4b1
+[I 18:04:38.546 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:393237ea-0e71-4167-ad4c-b56c370026b4
+[I 18:04:42.672 NotebookApp] Restoring connection for 796cec8f-354a-4fd9-bd09-008b927350d8:b10f2c54-4b3a-49a5-b0d0-77f3f8351ecd
+[I 18:23:09.888 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 18:25:09.934 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 18:29:59.232 NotebookApp] Saving file at /App/test_model.ipynb
+[I 18:32:00.561 NotebookApp] Saving file at /App/test_model.ipynb
+[I 18:34:00.627 NotebookApp] Saving file at /App/test_model.ipynb
+[I 18:38:46.421 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:393237ea-0e71-4167-ad4c-b56c370026b4
+[I 18:38:46.422 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:7571af62-f129-4aa1-8e47-b051730e3218
+[I 18:38:46.422 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:6e63f501-a071-47ac-8f54-e8ea99bea4b1
+[I 18:38:46.422 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:b10f2c54-4b3a-49a5-b0d0-77f3f8351ecd
+[I 2023-08-07 20:27:40.148 LabApp] Build is up to date
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 20:27:48.029 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Utilization/ws
+[I 20:27:48.046 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Resources/ws
+[I 20:27:48.557 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Utilization/ws
+[I 20:27:48.558 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Resources/ws
+[I 20:27:50.176 NotebookApp] EOF on FD 19; stopping reading
+[I 20:27:50.277 NotebookApp] Terminal 2 closed
+[I 20:31:34.221 NotebookApp] Creating new notebook in /App
+[I 20:31:35.130 NotebookApp] Kernel started: b9127f1c-d744-49c8-b313-4baf84716b0a, name: python3
+[I 20:31:41.582 NotebookApp] Kernel started: 1c3f5f8a-1783-45c0-9d63-50d436530efa, name: myenv2
+[I 20:31:41.584 NotebookApp] Kernel shutdown: b9127f1c-d744-49c8-b313-4baf84716b0a
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/ipykernel/kernelapp.py", line 51, in <module>
+    from .ipkernel import IPythonKernel
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/ipykernel/ipkernel.py", line 19, in <module>
+    from .debugger import Debugger, _is_debugpy_available
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/ipykernel/debugger.py", line 22, in <module>
+    from debugpy.server import api  # noqa
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/debugpy/server/__init__.py", line 7, in <module>
+    import debugpy._vendored.force_pydevd  # noqa
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/debugpy/_vendored/force_pydevd.py", line 36, in <module>
+    preimport('pydevd', [
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/debugpy/_vendored/__init__.py", line 126, in preimport
+    import_module(name)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/__init__.py", line 5, in <module>
+    __import__('pkg_resources').declare_namespace(__name__)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/pkg_resources/__init__.py", line 3267, in <module>
+    def _initialize_master_working_set():
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    f(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/pkg_resources/__init__.py", line 564, in _build_master
+    ws = cls()
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/pkg_resources/__init__.py", line 557, in __init__
+    self.add_entry(entry)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/pkg_resources/__init__.py", line 613, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+    for dist in factory(fullpath):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/pkg_resources/__init__.py", line 2135, in distributions_from_metadata
+    if len(os.listdir(path)) == 0:
+KeyboardInterrupt
+[W 20:32:35.197 NotebookApp] Timeout waiting for kernel_info reply from b9127f1c-d744-49c8-b313-4baf84716b0a
+[E 20:32:35.199 NotebookApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: b9127f1c-d744-49c8-b313-4baf84716b0a)
+[I 20:33:34.818 NotebookApp] Saving file at /App/Untitled.ipynb
+[I 20:35:34.880 NotebookApp] Saving file at /App/Untitled.ipynb
+[I 20:37:34.983 NotebookApp] Saving file at /App/Untitled.ipynb
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+2023-08-07 20:37:38,674 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 20:37:38.835 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Resources/ws
+[I 20:37:38.840 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Resources/ws
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 20:37:43.796 NotebookApp] Saving file at /App/pegasus_finetune.py
+[I 20:39:35.046 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:41:35.922 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:43:17.218 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:44:25.250 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:45:17.440 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:47:17.538 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:49:10.032 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[IPKernelApp] ERROR | KeyboardInterrupt caught in kernel.
+[I 20:49:11.028 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:11.457 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:11.804 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:12.261 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:12.494 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:12.874 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:13.131 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:13.401 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:13.646 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:14.088 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:49:14.336 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+Traceback (most recent call last):
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 653, in get
+    value = obj._trait_values[self.name]
+KeyError: 'layout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/__main__.py", line 3, in <module>
+    cli.cli(prog_name="python -m wandb")
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/cli/cli.py", line 102, in wrapper
+    return func(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/cli/cli.py", line 287, in service
+    server.serve()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/server.py", line 166, in serve
+    mux.loop()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 421, in loop
+    raise e
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 419, in loop
+    self._loop()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 412, in _loop
+    self._process_action(action)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 389, in _process_action
+    self._process_teardown(action)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 367, in _process_teardown
+    self._finish_all(streams_copy, exit_code)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 284, in _finish_all
+    printer = get_printer(
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/printer.py", line 311, in get_printer
+    return PrinterJupyter()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/printer.py", line 230, in __init__
+    self._progress = ipython.jupyter_progress_bar()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/ipython.py", line 137, in jupyter_progress_bar
+    return ProgressWidget(widgets, min=min, max=max)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/ipython.py", line 96, in __init__
+    self._progress = widgets.FloatProgress(min=min, max=max)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_float.py", line 26, in __init__
+    super().__init__(**kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_description.py", line 35, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 504, in __init__
+    self.open()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 517, in open
+    state, buffer_paths, buffers = _remove_buffers(self.get_state())
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 615, in get_state
+    value = to_json(getattr(self, k), self)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 700, in __get__
+    return self.get(obj, cls)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 656, in get
+    default = obj.trait_defaults(self.name)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 1868, in trait_defaults
+    return self._get_trait_default_generator(names[0])(self)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 624, in default
+    return self.make_dynamic_default()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/trait_types.py", line 365, in make_dynamic_default
+    return self.klass(*(self.default_args or ()),
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_layout.py", line 86, in __init__
+    super().__init__(**kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 504, in __init__
+    self.open()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 535, in open
+    self.comm = create_comm(**args)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/comm/__init__.py", line 27, in _create_comm
+    raise NotImplementedError("Cannot ")
+NotImplementedError: Cannot 
+[I 20:49:17.591 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:49:20.541 NotebookApp] Kernel restarted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 20:51:17.646 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:53:18.066 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:55:18.130 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:57:18.180 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 20:59:18.240 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 21:01:22.455 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[I 21:03:25.305 NotebookApp] Saving file at /App/pegasus_finetune_notebook.ipynb
+[W 22:07:12.857 NotebookApp] delete /App/model
+[W 22:08:12.833 NotebookApp] delete /App/results
+[W 22:08:16.940 NotebookApp] delete /App/logs
+[W 22:08:24.648 NotebookApp] delete /model
+[W 22:08:28.852 NotebookApp] delete /logs
+[W 22:08:33.168 NotebookApp] delete /results
+[I 22:08:40.462 NotebookApp] Creating new directory in /App
+Traceback (most recent call last):
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 653, in get
+    value = obj._trait_values[self.name]
+KeyError: 'layout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/__main__.py", line 3, in <module>
+    cli.cli(prog_name="python -m wandb")
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/cli/cli.py", line 102, in wrapper
+    return func(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/cli/cli.py", line 287, in service
+    server.serve()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/server.py", line 166, in serve
+    mux.loop()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 421, in loop
+    raise e
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 419, in loop
+    self._loop()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 412, in _loop
+    self._process_action(action)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 389, in _process_action
+    self._process_teardown(action)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 367, in _process_teardown
+    self._finish_all(streams_copy, exit_code)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 284, in _finish_all
+    printer = get_printer(
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/printer.py", line 311, in get_printer
+    return PrinterJupyter()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/printer.py", line 230, in __init__
+    self._progress = ipython.jupyter_progress_bar()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/ipython.py", line 137, in jupyter_progress_bar
+    return ProgressWidget(widgets, min=min, max=max)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/ipython.py", line 96, in __init__
+    self._progress = widgets.FloatProgress(min=min, max=max)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_float.py", line 26, in __init__
+    super().__init__(**kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_description.py", line 35, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 504, in __init__
+    self.open()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 517, in open
+    state, buffer_paths, buffers = _remove_buffers(self.get_state())
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 615, in get_state
+    value = to_json(getattr(self, k), self)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 700, in __get__
+    return self.get(obj, cls)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 656, in get
+    default = obj.trait_defaults(self.name)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 1868, in trait_defaults
+    return self._get_trait_default_generator(names[0])(self)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 624, in default
+    return self.make_dynamic_default()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/trait_types.py", line 365, in make_dynamic_default
+    return self.klass(*(self.default_args or ()),
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_layout.py", line 86, in __init__
+    super().__init__(**kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 504, in __init__
+    self.open()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 535, in open
+    self.comm = create_comm(**args)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/comm/__init__.py", line 27, in _create_comm
+    raise NotImplementedError("Cannot ")
+NotImplementedError: Cannot 
+[I 22:09:25.204 NotebookApp] Kernel restarted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 22:11:25.941 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:13:28.884 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:17:29.007 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:19:29.080 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:19:58.745 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+Traceback (most recent call last):
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 653, in get
+    value = obj._trait_values[self.name]
+KeyError: 'layout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/__main__.py", line 3, in <module>
+    cli.cli(prog_name="python -m wandb")
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/cli/cli.py", line 102, in wrapper
+    return func(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/cli/cli.py", line 287, in service
+    server.serve()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/server.py", line 166, in serve
+    mux.loop()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 421, in loop
+    raise e
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 419, in loop
+    self._loop()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 412, in _loop
+    self._process_action(action)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 389, in _process_action
+    self._process_teardown(action)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 367, in _process_teardown
+    self._finish_all(streams_copy, exit_code)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 284, in _finish_all
+    printer = get_printer(
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/printer.py", line 311, in get_printer
+    return PrinterJupyter()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/printer.py", line 230, in __init__
+    self._progress = ipython.jupyter_progress_bar()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/ipython.py", line 137, in jupyter_progress_bar
+    return ProgressWidget(widgets, min=min, max=max)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/ipython.py", line 96, in __init__
+    self._progress = widgets.FloatProgress(min=min, max=max)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_float.py", line 26, in __init__
+    super().__init__(**kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_description.py", line 35, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 504, in __init__
+    self.open()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 517, in open
+    state, buffer_paths, buffers = _remove_buffers(self.get_state())
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 615, in get_state
+    value = to_json(getattr(self, k), self)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 700, in __get__
+    return self.get(obj, cls)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 656, in get
+    default = obj.trait_defaults(self.name)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 1868, in trait_defaults
+    return self._get_trait_default_generator(names[0])(self)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 624, in default
+    return self.make_dynamic_default()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/trait_types.py", line 365, in make_dynamic_default
+    return self.klass(*(self.default_args or ()),
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_layout.py", line 86, in __init__
+    super().__init__(**kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 504, in __init__
+    self.open()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 535, in open
+    self.comm = create_comm(**args)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/comm/__init__.py", line 27, in _create_comm
+    raise NotImplementedError("Cannot ")
+NotImplementedError: Cannot 
+[I 22:20:04.402 NotebookApp] Kernel restarted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 22:20:11.577 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:22:11.638 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:24:11.712 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:26:12.379 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:28:14.169 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:30:14.250 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:32:14.318 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:34:14.380 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:36:14.446 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:38:14.511 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:40:14.582 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:42:15.676 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:44:17.961 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:46:18.061 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:48:18.135 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:50:18.220 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:52:18.281 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:54:18.422 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:56:18.490 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 22:58:22.144 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:00:23.928 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:02:24.000 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:04:24.087 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:06:24.170 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:08:24.370 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:10:24.434 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:12:24.506 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:14:24.670 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:16:30.044 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:18:30.177 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:20:30.292 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:22:30.797 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:24:30.857 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:26:30.939 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:28:31.009 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:30:31.748 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:32:31.827 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:34:31.901 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:36:31.969 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:38:32.026 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:40:32.181 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:42:34.002 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:44:34.309 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:46:34.374 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:48:34.477 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:50:34.539 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:52:34.606 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:54:34.670 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:56:34.813 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 23:58:36.716 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:00:36.788 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:02:36.851 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:04:36.932 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:06:36.996 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:08:37.062 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:10:37.380 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:12:37.443 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:14:37.506 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:16:37.573 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:18:37.934 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:20:38.020 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:22:38.083 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:24:38.150 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:26:38.222 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:28:41.728 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:30:43.480 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:32:43.890 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:34:43.971 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:36:44.051 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:38:44.119 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 00:40:38.218 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 00:40:38.220 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 00:40:38.221 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 00:40:38.223 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:65487b86-247b-4e3d-aaf2-6ff6c3125689
+[I 00:40:38.223 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 08:35:14.105 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 08:35:15.239 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 08:35:24.934 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 08:35:29.078 NotebookApp] Restoring connection for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 08:35:39.320 NotebookApp] Restoring connection for 1c3f5f8a-1783-45c0-9d63-50d436530efa:65487b86-247b-4e3d-aaf2-6ff6c3125689
+[I 08:35:39.332 NotebookApp] Replaying 10747 buffered messages
+[W 08:35:40.402 NotebookApp] IOPub message rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 08:35:42.888 NotebookApp] Saving file at /App/Pegasus_finetune/pegasus_finetune_notebook.ipynb
+[I 08:40:17.886 NotebookApp] New terminal with automatic name: 1
+[I 09:37:31.025 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 09:37:31.026 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 09:37:31.026 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 09:37:31.027 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 09:37:31.029 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:de7bffa0-e2c0-4391-8a03-8c419eba070e
+[I 09:37:31.062 NotebookApp] Restoring connection for 1c3f5f8a-1783-45c0-9d63-50d436530efa:de7bffa0-e2c0-4391-8a03-8c419eba070e
+[W 09:39:01.044 NotebookApp] WebSocket ping timeout after 90002 ms.
+[W 09:39:01.062 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 09:39:06.063 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:de7bffa0-e2c0-4391-8a03-8c419eba070e
+[I 09:55:19.445 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 09:55:20.561 NotebookApp] Restoring connection for 1c3f5f8a-1783-45c0-9d63-50d436530efa:de7bffa0-e2c0-4391-8a03-8c419eba070e
+[I 09:55:20.819 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 09:55:21.781 NotebookApp] Restoring connection for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 09:55:43.740 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 09:57:42.117 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 09:57:42.118 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 09:57:42.119 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 09:57:42.120 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:cd3d991c-f3ee-4796-92b8-666ab0444c6e
+[I 09:57:42.120 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[W 09:59:12.142 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 09:59:17.144 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:65487b86-247b-4e3d-aaf2-6ff6c3125689
+[I 10:02:13.038 NotebookApp] Restoring connection for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 10:02:13.085 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 10:02:13.112 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 10:02:13.178 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 10:02:23.092 NotebookApp] Kernel interrupted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+[I 10:02:55.904 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Utilization/ws
+[I 10:02:55.908 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Utilization/ws
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 10:03:17.745 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 10:03:17.749 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+2023-08-08 10:03:21,953 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 10:03:21.957 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 10:03:21.960 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+[I 10:03:35.097 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/GPU-Resources/ws
+[I 10:03:35.200 NotebookApp] Websocket connection established to ws://localhost:49170/GPU-Resources/ws
+Traceback (most recent call last):
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 653, in get
+    value = obj._trait_values[self.name]
+KeyError: 'layout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/__main__.py", line 3, in <module>
+    cli.cli(prog_name="python -m wandb")
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/cli/cli.py", line 102, in wrapper
+    return func(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/cli/cli.py", line 287, in service
+    server.serve()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/server.py", line 166, in serve
+    mux.loop()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 421, in loop
+    raise e
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 419, in loop
+    self._loop()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 412, in _loop
+    self._process_action(action)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 389, in _process_action
+    self._process_teardown(action)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 367, in _process_teardown
+    self._finish_all(streams_copy, exit_code)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/service/streams.py", line 284, in _finish_all
+    printer = get_printer(
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/printer.py", line 311, in get_printer
+    return PrinterJupyter()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/printer.py", line 230, in __init__
+    self._progress = ipython.jupyter_progress_bar()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/ipython.py", line 137, in jupyter_progress_bar
+    return ProgressWidget(widgets, min=min, max=max)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/wandb/sdk/lib/ipython.py", line 96, in __init__
+    self._progress = widgets.FloatProgress(min=min, max=max)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_float.py", line 26, in __init__
+    super().__init__(**kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_description.py", line 35, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 504, in __init__
+    self.open()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 517, in open
+    state, buffer_paths, buffers = _remove_buffers(self.get_state())
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 615, in get_state
+    value = to_json(getattr(self, k), self)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 700, in __get__
+    return self.get(obj, cls)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 656, in get
+    default = obj.trait_defaults(self.name)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 1868, in trait_defaults
+    return self._get_trait_default_generator(names[0])(self)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/traitlets/traitlets.py", line 624, in default
+    return self.make_dynamic_default()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/trait_types.py", line 365, in make_dynamic_default
+    return self.klass(*(self.default_args or ()),
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget_layout.py", line 86, in __init__
+    super().__init__(**kwargs)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 504, in __init__
+    self.open()
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/ipywidgets/widgets/widget.py", line 535, in open
+    self.comm = create_comm(**args)
+  File "/home/abdulna/miniconda3/envs/myenv2/lib/python3.9/site-packages/comm/__init__.py", line 27, in _create_comm
+    raise NotImplementedError("Cannot ")
+NotImplementedError: Cannot 
+[I 10:03:55.066 NotebookApp] Kernel restarted: 1c3f5f8a-1783-45c0-9d63-50d436530efa
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+BokehDeprecationWarning: 'legend' keyword is deprecated, use explicit 'legend_label', 'legend_field', or 'legend_group' keywords instead
+2023-08-08 10:04:27,757 - NotebookApp - ERROR - Uncaught exception 
+Traceback (most recent call last):
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 647, in _run_callback
+    result = callback(*args, **kwargs)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1531, in on_message
+    return self._on_message(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 1537, in _on_message
+    self._on_message_callback(message)
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/jupyter_server_proxy/handlers.py", line 435, in message_cb
+    self.write_message(message, binary=isinstance(message, bytes))
+  File "/sw/csgv/machine_learning/2022.11/el7_cudnn8.2_cuda11.2_py3.8_env/machine_learning-module/env/lib/python3.9/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+WARNING:bokeh.server.views.ws:Failed sending message as connection was closed
+[I 10:04:27.921 NotebookApp] Trying to establish websocket connection to ws://localhost:49170/Machine-Resources/ws
+[I 10:04:28.001 NotebookApp] Websocket connection established to ws://localhost:49170/Machine-Resources/ws
+[I 10:04:59.905 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 10:04:59.907 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:cd3d991c-f3ee-4796-92b8-666ab0444c6e
+[I 10:04:59.908 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 10:04:59.908 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 10:04:59.909 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[W 10:06:29.934 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 10:06:29.955 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 10:06:34.957 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:65487b86-247b-4e3d-aaf2-6ff6c3125689
+[I 10:18:00.080 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 10:18:00.322 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 10:18:00.340 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 10:18:00.494 NotebookApp] Restoring connection for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 10:21:15.465 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 10:21:15.466 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 10:21:15.468 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 10:21:15.468 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 10:21:15.469 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:cd3d991c-f3ee-4796-92b8-666ab0444c6e
+[W 10:22:45.518 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 10:22:50.520 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:65487b86-247b-4e3d-aaf2-6ff6c3125689
+[I 10:23:12.144 NotebookApp] Restoring connection for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 10:23:12.170 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 10:23:12.196 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 10:23:12.241 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 10:24:32.474 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 10:24:32.475 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 10:24:32.476 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 10:24:32.477 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 10:24:32.479 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:de7bffa0-e2c0-4391-8a03-8c419eba070e
+[W 10:26:02.493 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 10:26:02.514 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 10:26:07.516 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:cd3d991c-f3ee-4796-92b8-666ab0444c6e
+[I 10:28:00.381 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 10:28:00.439 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 10:28:00.457 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 10:28:00.478 NotebookApp] Restoring connection for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 10:29:13.066 NotebookApp] Starting buffering for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103
+[I 10:29:13.068 NotebookApp] Starting buffering for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 10:29:13.069 NotebookApp] Starting buffering for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 10:29:13.070 NotebookApp] Starting buffering for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 10:29:13.071 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:cd3d991c-f3ee-4796-92b8-666ab0444c6e
+[I 10:29:13.090 NotebookApp] Restoring connection for 1c3f5f8a-1783-45c0-9d63-50d436530efa:cd3d991c-f3ee-4796-92b8-666ab0444c6e
+[W 10:30:43.090 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 10:30:43.110 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 10:30:48.112 NotebookApp] Starting buffering for 1c3f5f8a-1783-45c0-9d63-50d436530efa:65487b86-247b-4e3d-aaf2-6ff6c3125689
+[I 10:40:34.090 NotebookApp] Restoring connection for 796cec8f-354a-4fd9-bd09-008b927350d8:4938d411-5c82-46e3-9ecf-d0d1333a132c
+[I 10:40:34.233 NotebookApp] Restoring connection for 7e3b115f-c4a4-417e-a381-a4332c4d31f1:b5a27dcf-60ec-4073-b8ca-d4a43f36698a
+[I 10:40:34.282 NotebookApp] Restoring connection for 13a39df0-a786-4aa3-9a8d-e79d23440288:b01716f3-57f9-40a8-99e0-ccef0c4c56ba
+[I 10:40:34.308 NotebookApp] Restoring connection for 7506a6b2-2573-4128-baf9-c0bcda6736a8:9e91b47f-4be6-45b2-98bf-ab9b26abc103

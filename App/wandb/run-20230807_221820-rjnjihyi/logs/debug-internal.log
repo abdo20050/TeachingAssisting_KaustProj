@@ -1,0 +1,199 @@
+2023-08-07 22:18:20,243 INFO    StreamThr :8529 [internal.py:wandb_internal():86] W&B internal server running at pid: 8529, started at: 2023-08-07 22:18:20.241400
+2023-08-07 22:18:20,246 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status
+2023-08-07 22:18:20,278 INFO    WriterThread:8529 [datastore.py:open_for_write():85] open: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/run-rjnjihyi.wandb
+2023-08-07 22:18:20,280 DEBUG   SenderThread:8529 [sender.py:send():379] send: header
+2023-08-07 22:18:20,590 DEBUG   SenderThread:8529 [sender.py:send():379] send: run
+2023-08-07 22:18:21,502 INFO    SenderThread:8529 [dir_watcher.py:__init__():211] watching files in: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files
+2023-08-07 22:18:21,503 INFO    SenderThread:8529 [sender.py:_start_run_threads():1122] run started: rjnjihyi with start time 1691435900.245535
+2023-08-07 22:18:21,503 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:18:21,504 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:18:21,513 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: check_version
+2023-08-07 22:18:21,514 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: check_version
+2023-08-07 22:18:21,892 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: run_start
+2023-08-07 22:18:21,906 DEBUG   HandlerThread:8529 [system_info.py:__init__():31] System info init
+2023-08-07 22:18:21,907 DEBUG   HandlerThread:8529 [system_info.py:__init__():46] System info init done
+2023-08-07 22:18:21,907 INFO    HandlerThread:8529 [system_monitor.py:start():181] Starting system monitor
+2023-08-07 22:18:21,907 INFO    SystemMonitor:8529 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-07 22:18:21,907 INFO    HandlerThread:8529 [system_monitor.py:probe():201] Collecting system info
+2023-08-07 22:18:21,908 INFO    SystemMonitor:8529 [interfaces.py:start():190] Started cpu monitoring
+2023-08-07 22:18:21,909 INFO    SystemMonitor:8529 [interfaces.py:start():190] Started disk monitoring
+2023-08-07 22:18:21,910 INFO    SystemMonitor:8529 [interfaces.py:start():190] Started gpu monitoring
+2023-08-07 22:18:21,911 INFO    SystemMonitor:8529 [interfaces.py:start():190] Started memory monitoring
+2023-08-07 22:18:21,911 INFO    SystemMonitor:8529 [interfaces.py:start():190] Started network monitoring
+2023-08-07 22:18:21,940 DEBUG   HandlerThread:8529 [system_info.py:probe():195] Probing system
+2023-08-07 22:18:21,949 DEBUG   HandlerThread:8529 [system_info.py:_probe_git():180] Probing git
+2023-08-07 22:18:21,976 DEBUG   HandlerThread:8529 [system_info.py:_probe_git():188] Probing git done
+2023-08-07 22:18:21,976 DEBUG   HandlerThread:8529 [system_info.py:probe():240] Probing system done
+2023-08-07 22:18:21,976 DEBUG   HandlerThread:8529 [system_monitor.py:probe():210] {'os': 'Linux-3.10.0-1160.76.1.el7.x86_64-x86_64-with-glibc2.17', 'python': '3.9.16', 'heartbeatAt': '2023-08-07T19:18:21.940906', 'startedAt': '2023-08-07T19:18:20.211916', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'App/Pegasus_finetune/pegasus_finetune_notebook.ipynb', 'root': '/home/abdulna/test', 'git': {'remote': None, 'commit': '3106adbd74b5fda54e977c2f04e51ae8d3877e63'}, 'email': None, 'host': 'dgpu502-37', 'username': 'abdulna', 'executable': '/home/abdulna/miniconda3/envs/myenv2/bin/python', 'cpu_count': 36, 'cpu_count_logical': 36, 'cpu_freq': {'current': 1.453111111111111, 'min': 1200.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 1.297, 'min': 1200.0, 'max': 3600.0}, {'current': 3.156, 'min': 1200.0, 'max': 3600.0}, {'current': 3.156, 'min': 1200.0, 'max': 3600.0}, {'current': 1.888, 'min': 1200.0, 'max': 3600.0}, {'current': 1.396, 'min': 1200.0, 'max': 3600.0}, {'current': 1.595, 'min': 1200.0, 'max': 3600.0}, {'current': 1.289, 'min': 1200.0, 'max': 3600.0}, {'current': 1.4, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.2, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 3.33, 'min': 1200.0, 'max': 3600.0}, {'current': 2.3, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.2, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.2, 'min': 1200.0, 'max': 3600.0}, {'current': 1.2, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.24, 'min': 1200.0, 'max': 3600.0}, {'current': 1.2, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.2, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.2, 'min': 1200.0, 'max': 3600.0}, {'current': 1.199, 'min': 1200.0, 'max': 3600.0}, {'current': 1.259, 'min': 1200.0, 'max': 3600.0}, {'current': 1.263, 'min': 1200.0, 'max': 3600.0}, {'current': 1.241, 'min': 1200.0, 'max': 3600.0}, {'current': 1.2, 'min': 1200.0, 'max': 3600.0}], 'disk': {'total': 125.8974380493164, 'used': 9.078582763671875}, 'gpu': 'Tesla P100-PCIE-16GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla P100-PCIE-16GB', 'memory_total': 17179869184}], 'memory': {'total': 251.79487991333008}}
+2023-08-07 22:18:21,976 INFO    HandlerThread:8529 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-07 22:18:21,976 INFO    HandlerThread:8529 [system_monitor.py:probe():214] Publishing system info
+2023-08-07 22:18:21,976 DEBUG   HandlerThread:8529 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-07 22:18:21,979 DEBUG   HandlerThread:8529 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-07 22:18:21,979 DEBUG   HandlerThread:8529 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-07 22:18:22,507 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_created():272] file/dir created: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/conda-environment.yaml
+2023-08-07 22:18:22,508 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_created():272] file/dir created: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/requirements.txt
+2023-08-07 22:18:22,509 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_created():272] file/dir created: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:18:39,499 DEBUG   HandlerThread:8529 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-07 22:18:39,502 INFO    HandlerThread:8529 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-07 22:18:39,522 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/conda-environment.yaml
+2023-08-07 22:18:39,523 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_created():272] file/dir created: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-metadata.json
+2023-08-07 22:18:39,535 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:18:39,535 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-07 22:18:39,536 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:18:39,536 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-07 22:18:39,536 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:18:39,536 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-07 22:18:39,537 DEBUG   SenderThread:8529 [sender.py:send():379] send: files
+2023-08-07 22:18:39,537 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-metadata.json with policy now
+2023-08-07 22:18:39,561 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 22:18:39,561 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: stop_status
+2023-08-07 22:18:39,965 DEBUG   SenderThread:8529 [sender.py:send():379] send: telemetry
+2023-08-07 22:18:39,965 DEBUG   SenderThread:8529 [sender.py:send():379] send: config
+2023-08-07 22:18:39,967 DEBUG   SenderThread:8529 [sender.py:send():379] send: metric
+2023-08-07 22:18:39,968 DEBUG   SenderThread:8529 [sender.py:send():379] send: telemetry
+2023-08-07 22:18:39,968 DEBUG   SenderThread:8529 [sender.py:send():379] send: metric
+2023-08-07 22:18:39,968 WARNING SenderThread:8529 [sender.py:send_metric():1327] Seen metric with glob (shouldn't happen)
+2023-08-07 22:18:40,327 INFO    wandb-upload_0:8529 [upload_job.py:push():131] Uploaded file /tmp/tmp61ipl7oxwandb/7bfyxuzw-wandb-metadata.json
+2023-08-07 22:18:40,969 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:18:45,084 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:18:45,086 DEBUG   SenderThread:8529 [sender.py:send():379] send: metric
+2023-08-07 22:18:45,087 DEBUG   SenderThread:8529 [sender.py:send():379] send: metric
+2023-08-07 22:18:45,087 DEBUG   SenderThread:8529 [sender.py:send():379] send: metric
+2023-08-07 22:18:45,087 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:18:45,087 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:18:45,091 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:18:45,532 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:18:46,092 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:18:50,158 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:18:50,159 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:18:50,160 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:18:50,164 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:18:50,538 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:18:51,170 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:18:52,541 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/config.yaml
+2023-08-07 22:18:54,561 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 22:18:54,562 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: stop_status
+2023-08-07 22:18:55,226 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:18:55,227 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:18:55,228 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:18:55,232 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:18:55,553 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:18:57,233 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:00,313 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:00,314 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:00,314 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:00,318 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:00,558 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:02,319 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:05,387 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:05,388 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:05,388 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:05,391 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:05,564 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:07,392 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:09,561 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 22:19:09,562 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: stop_status
+2023-08-07 22:19:10,462 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:10,463 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:10,464 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:10,468 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:10,570 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:12,470 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:15,541 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:15,542 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:15,543 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:15,548 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:15,575 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:17,549 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:20,622 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:20,623 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:20,624 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:20,626 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:21,584 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:21,911 DEBUG   SystemMonitor:8529 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-07 22:19:21,914 DEBUG   SenderThread:8529 [sender.py:send():379] send: stats
+2023-08-07 22:19:22,915 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:24,561 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 22:19:24,562 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: stop_status
+2023-08-07 22:19:25,704 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:25,706 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:25,706 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:25,710 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:26,591 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:28,712 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:30,782 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:30,784 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:30,784 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:30,786 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:31,596 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:33,787 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:35,064 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:35,067 DEBUG   SenderThread:8529 [sender.py:send():379] send: metric
+2023-08-07 22:19:35,067 DEBUG   SenderThread:8529 [sender.py:send():379] send: metric
+2023-08-07 22:19:35,067 DEBUG   SenderThread:8529 [sender.py:send():379] send: metric
+2023-08-07 22:19:35,067 DEBUG   SenderThread:8529 [sender.py:send():379] send: metric
+2023-08-07 22:19:35,067 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:35,067 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:35,069 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:35,603 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:39,070 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:39,561 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 22:19:39,561 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: stop_status
+2023-08-07 22:19:40,144 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:40,146 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:40,146 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:40,151 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:40,609 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:44,153 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:45,241 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:45,243 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:45,243 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:45,246 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:45,615 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:49,248 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:50,322 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:50,323 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:50,324 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:50,328 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:50,621 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:51,915 DEBUG   SenderThread:8529 [sender.py:send():379] send: stats
+2023-08-07 22:19:54,562 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-07 22:19:54,567 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:19:54,986 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: stop_status
+2023-08-07 22:19:55,533 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-07 22:19:55,534 DEBUG   SenderThread:8529 [sender.py:send():379] send: history
+2023-08-07 22:19:55,535 DEBUG   SenderThread:8529 [sender.py:send_request():406] send_request: summary_record
+2023-08-07 22:19:55,537 INFO    SenderThread:8529 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-08-07 22:19:55,626 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/config.yaml
+2023-08-07 22:19:55,626 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json
+2023-08-07 22:19:59,633 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_created():272] file/dir created: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/output.log
+2023-08-07 22:20:00,852 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: status_report
+2023-08-07 22:20:01,368 DEBUG   HandlerThread:8529 [handler.py:handle_request():144] handle_request: pause
+2023-08-07 22:20:01,368 INFO    HandlerThread:8529 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-07 22:20:01,368 INFO    HandlerThread:8529 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-07 22:20:01,369 DEBUG   SystemMonitor:8529 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-07 22:20:01,369 DEBUG   SystemMonitor:8529 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-07 22:20:01,370 INFO    HandlerThread:8529 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-07 22:20:01,370 INFO    HandlerThread:8529 [interfaces.py:finish():202] Joined disk monitor
+2023-08-07 22:20:01,581 INFO    HandlerThread:8529 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-07 22:20:01,581 INFO    HandlerThread:8529 [interfaces.py:finish():202] Joined memory monitor
+2023-08-07 22:20:01,581 INFO    HandlerThread:8529 [interfaces.py:finish():202] Joined network monitor
+2023-08-07 22:20:01,582 DEBUG   SenderThread:8529 [sender.py:send():379] send: stats
+2023-08-07 22:20:01,636 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/output.log
+2023-08-07 22:20:03,639 INFO    Thread-12 :8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/output.log
+2023-08-07 22:20:05,347 WARNING StreamThr :8529 [internal.py:is_dead():414] Internal process exiting, parent pid 6903 disappeared
+2023-08-07 22:20:05,347 ERROR   StreamThr :8529 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-08-07 22:20:05,582 INFO    HandlerThread:8529 [handler.py:finish():857] shutting down handler
+2023-08-07 22:20:05,582 INFO    WriterThread:8529 [datastore.py:close():294] close: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/run-rjnjihyi.wandb
+2023-08-07 22:20:05,583 INFO    SenderThread:8529 [sender.py:finish():1552] shutting down sender
+2023-08-07 22:20:07,374 INFO    SenderThread:8529 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-08-07 22:20:07,640 INFO    SenderThread:8529 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/output.log
+2023-08-07 22:20:07,641 INFO    SenderThread:8529 [dir_watcher.py:finish():389] scan: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files
+2023-08-07 22:20:07,641 INFO    SenderThread:8529 [dir_watcher.py:finish():403] scan save: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/config.yaml config.yaml
+2023-08-07 22:20:07,642 INFO    SenderThread:8529 [dir_watcher.py:finish():403] scan save: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-summary.json wandb-summary.json
+2023-08-07 22:20:07,642 INFO    SenderThread:8529 [dir_watcher.py:finish():403] scan save: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/requirements.txt requirements.txt
+2023-08-07 22:20:07,643 INFO    SenderThread:8529 [dir_watcher.py:finish():403] scan save: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/conda-environment.yaml conda-environment.yaml
+2023-08-07 22:20:07,643 INFO    SenderThread:8529 [dir_watcher.py:finish():403] scan save: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/wandb-metadata.json wandb-metadata.json
+2023-08-07 22:20:07,643 INFO    SenderThread:8529 [dir_watcher.py:finish():403] scan save: /home/abdulna/test/App/wandb/run-20230807_221820-rjnjihyi/files/output.log output.log
+2023-08-07 22:20:07,644 INFO    SenderThread:8529 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-07 22:20:07,644 INFO    SenderThread:8529 [file_pusher.py:join():164] waiting for file pusher
