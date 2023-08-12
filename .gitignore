@@ -1,1 +1,6 @@
-App/results/
+App/Pegasus_finetune/*
+dcgm/*
+bin/*
+wandb/*
+App/checkpoint*
+
