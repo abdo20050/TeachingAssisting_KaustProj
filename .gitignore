@@ -3,4 +3,5 @@ dcgm/*
 bin/*
 wandb/*
 App/checkpoint*
+/App/Pegasus_finetuned_model/*
 
