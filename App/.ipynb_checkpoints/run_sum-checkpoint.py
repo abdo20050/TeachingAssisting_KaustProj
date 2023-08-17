@@ -3,8 +3,8 @@ import torch
 # from tqdm import tqdm
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-# model_name = './Pegasus_finetuned_model/'
-model_name = 'google/pegasus-large'
+model_name = './Pegasus_finetuned_model/'
+# model_name = 'google/pegasus-large'
 
 batch_size = 1
 
