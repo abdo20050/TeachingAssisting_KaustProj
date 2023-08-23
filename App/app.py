@@ -2,7 +2,7 @@ import gradio as gr
 import os
 from run_whisper import speetch_to_txt
 from run_translation import translate_text
-from run_sum import summerize
+from run_sum_Bert import summerize
 from run_GPT_sum import summarize_gpt
 import time
 
@@ -13,7 +13,6 @@ with blocks as demo:
 
     with gr.Row():
         btn1 = gr.Button("Use Uploaded Audio")
-        btn2 = gr.Button("Use Recorded Audio.")
 
     def generate(input):
         print(input)
@@ -33,9 +32,9 @@ with blocks as demo:
         #print(f"Translated of GPT summarization: {output_2}")
         #print("-----------------------------------")
         return output_1, output_2
-    
-    output_1 = gr.Textbox(label="Our summarization")
-    output_2 = gr.Textbox(label="GPT summarization")
+    with gr.Row():
+        output_1 = gr.Textbox(label="Our summarization")
+        output_2 = gr.Textbox(label="GPT summarization")
     btn1.click(fn = generate, inputs = drop, outputs=[output_1, output_2])
 # demo.queue(concurrency_count=5,max_size = 20)
 demo.launch(share=True)
