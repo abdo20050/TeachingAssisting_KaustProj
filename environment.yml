@@ -1,4 +1,4 @@
-name: pytorch-env
+name: myenv
 
 channels:
   - pytorch
