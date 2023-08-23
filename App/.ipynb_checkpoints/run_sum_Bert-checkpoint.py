@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, BartForConditionalGeneration
 import torch
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-mode_dir = './Bert_finetuned_model'
+mode_dir =  'abdo25/modawwen_bert_model'
 tokenizer = AutoTokenizer.from_pretrained(mode_dir)
 model = BartForConditionalGeneration.from_pretrained(mode_dir).to(device)
 
