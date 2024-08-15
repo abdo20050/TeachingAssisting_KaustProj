@@ -2,7 +2,7 @@ import gradio as gr
 import openai
 
 
-openai.api_key = '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'
+openai.api_key = 'ADD_YOUR_API_KEY'
 
 
 
